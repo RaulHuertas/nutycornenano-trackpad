@@ -1,2 +1,2 @@
 config SHIELD_NUTYCORNENANOT
-    def_bool  $(shield_list_contains, nutycornenanot)
+    def_bool  $(shield_list_contains,nutycornenanot)
