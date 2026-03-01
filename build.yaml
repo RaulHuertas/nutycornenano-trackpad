@@ -11,6 +11,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: nutycornenanot   
+    snippet: cdc-acm-console zmk-usb-logging 
     cmake-args:  -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 
   - board: seeeduino_xiao_ble
