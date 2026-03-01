@@ -1,7 +1,5 @@
 / {
 
-
-
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <5>;
@@ -13,7 +11,6 @@
                 RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) 
 		>;
 	};
-
 
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -28,11 +25,5 @@
             ;
 
     };
-
-
-
-
-
-
 
 };
