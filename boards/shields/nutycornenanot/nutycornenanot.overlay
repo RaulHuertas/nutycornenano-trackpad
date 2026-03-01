@@ -1,4 +1,4 @@
-#include ""
+#include "nutycornenanot.dtsi"
 
 / {
     kscan0: kscan0 {
