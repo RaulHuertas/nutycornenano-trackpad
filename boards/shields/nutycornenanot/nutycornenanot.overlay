@@ -44,9 +44,11 @@
     };
 };
 
-&glidepoint_split {
-    device = <&trackpad>;
-    input-processors = <&zip_xy_scaler 1 1>;
-    //status = "disabled";
-};   
+/ {
 
+    glidepoint_listener {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint>;
+    };
+
+}
