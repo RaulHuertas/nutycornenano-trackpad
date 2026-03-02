@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <nutycornenanot-layouts.dtsi>
+#include "nutycornenanot-layouts.dtsi"
 
 / {
 
