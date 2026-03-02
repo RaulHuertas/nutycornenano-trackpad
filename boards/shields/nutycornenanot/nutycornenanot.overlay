@@ -1,4 +1,7 @@
 #include "nutycornenanot.dtsi"
+&default_transform {
+	col-offset = <0>;
+};
 
 / {
     kscan0: kscan0 {
