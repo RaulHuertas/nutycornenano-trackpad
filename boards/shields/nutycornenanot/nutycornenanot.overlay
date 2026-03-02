@@ -51,4 +51,4 @@
         device = <&glidepoint>;
     };
 
-}
+};
