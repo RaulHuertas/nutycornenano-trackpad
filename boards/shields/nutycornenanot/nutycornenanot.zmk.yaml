@@ -8,7 +8,6 @@ exposes: [trackpad]
 features:
   - keys
   - studio
-  - display
   - i2c
 siblings:
   - nutymini_left
