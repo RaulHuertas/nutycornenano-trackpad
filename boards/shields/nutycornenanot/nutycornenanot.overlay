@@ -30,7 +30,6 @@
 };
 
  &xiao_i2c {
-    //compatible = "nordic,nrf-twim";
     status = "okay";
     clock-frequency = <I2C_BITRATE_STANDARD>;
     trackpad: glidepoint@0 { 
@@ -49,6 +48,7 @@
     glidepoint_listener {
         compatible = "zmk,input-listener";
         device = <&trackpad>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
     };
 
 };

@@ -3,4 +3,11 @@ if SHIELD_NUTYCORNENANOT
 config ZMK_KEYBOARD_NAME
     default "NutyCorneNanoT"
 
+config ZMK_POINTING
+    default y
+
+# Assuming pointing device uses SPI
+config I2C
+    default y
+
 endif
