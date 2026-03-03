@@ -4,6 +4,14 @@
 
 #include "nutycornenanot.dtsi"
 
+&pinctrl {
+    i2c0_default {
+        group1 {
+            bias-pull-up;
+        }
+    }
+};
+
 &default_transform {
 	col-offset = <0>;
 };
