@@ -6,8 +6,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_POINTING
     default y
 
-# Assuming pointing device uses SPI
 config I2C
+    default y
+
+config ZMK_POINTING_SMOOTH_SCROLLING
     default y
 
 endif
