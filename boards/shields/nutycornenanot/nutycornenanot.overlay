@@ -52,7 +52,7 @@
         dr-gpios = <&gpio1 3 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "2x";
         sleep;
-
+        x-invert;
     };
 };
 
