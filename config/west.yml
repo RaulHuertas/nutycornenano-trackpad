@@ -16,5 +16,8 @@ manifest:
     - name: cirque-input-module
       remote: RaulHuertas
       revision: main
+    - name: zmk-rgbled-widget  # <-- new entry
+      remote: RaulHuertas
+      revision: v0.3           # MUST match your ZMK version!
   self:
     path: config
