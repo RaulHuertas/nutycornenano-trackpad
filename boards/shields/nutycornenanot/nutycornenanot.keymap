@@ -24,7 +24,7 @@
 
         default_layer { // Layer 0
             bindings = <
-                &kp Z    &kp M    &kp K   &kp M    &kp K
+                &kp Z    &kp M    &kp K   &kp M    &bt BT_CLR_ALL
                 &kp A    &kp B    &kp C   &kp B    &kp C
                 &kp D    &kp E    &kp F   &kp E    &kp F
                 &kp X    &kp C    &kp Z   &kp V    &kp B
