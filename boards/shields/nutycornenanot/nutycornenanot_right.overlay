@@ -52,8 +52,8 @@
         dr-gpios = <&gpio1 3 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "2x";
         sleep;
-        //x-invert;
-        y-invert;
+        x-invert;
+        //y-invert;
         //rotate-90;
     };
 };
