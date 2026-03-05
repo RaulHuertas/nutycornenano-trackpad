@@ -43,8 +43,11 @@
 };
 
 &glidepoint_split {
-    status = "disabled"; 
+    status = "enabled"; 
 };
 
+&glidepoint_listener {
+    status = "enabled";
+}
 
 
