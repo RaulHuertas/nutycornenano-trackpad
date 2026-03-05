@@ -1,6 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "nutycornenanot-layouts.dtsi"
+#include <input/processors.dtsi>  
+#include <dt-bindings/zmk/input_transform.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include "nutycornenanot.dtsi" 
+#include "nutycornenanot-layouts.dtsi"
 
 &physical_layout0 {
     transform = <&default_transform>;
