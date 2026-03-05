@@ -18,7 +18,7 @@
 };
 
 &default_transform {
-	col-offset = <0>;
+	col-offset = <5>;
 };
 
 &kscan0 {
@@ -56,17 +56,10 @@
     };
 };
 
-/ {
-
-    glidepoint_listener {
-        compatible = "zmk,input-listener";
-        status = "okay";
-        device = <&trackpad>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
-    };
-
-};
-
+&glidepoint_split {
+    device = <&trackpad>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+}
 
 
 
