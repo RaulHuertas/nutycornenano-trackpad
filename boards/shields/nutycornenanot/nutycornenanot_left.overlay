@@ -43,11 +43,11 @@
 };
 
 &glidepoint_split {
-    status = "enabled"; 
+    status = "ok"; 
 };
 
 &glidepoint_listener {
-    status = "enabled";
+    status = "ok";
 };
 
 
