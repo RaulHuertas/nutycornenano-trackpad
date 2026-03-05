@@ -28,8 +28,10 @@
 
     row-gpios
         = <&gpio1  7 (GPIO_ACTIVE_HIGH)>
-        , <&gpio0 10 (GPIO_ACTIVE_HIGH)>
-        , <&gpio0  9 (GPIO_ACTIVE_HIGH)>
+        //, <&gpio0 10 (GPIO_ACTIVE_HIGH)>
+        //, <&gpio0  9 (GPIO_ACTIVE_HIGH)>
+        , <&gpio1  14 (GPIO_ACTIVE_HIGH)>
+        , <&gpio1  15 (GPIO_ACTIVE_HIGH)>
         , <&gpio1  1 (GPIO_ACTIVE_HIGH)>
         ;
     col-gpios
