@@ -21,7 +21,7 @@ include:
   
   - board: seeeduino_xiao_ble
     shield: nutycornenanot_dongle  rgbled_adapter
-    snippet: studio-rpc-usb-uart zmk-usb-logging
+    snippet: studio-rpc-usb-uart cdc-acm-console zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: seeeduino_xiao_ble
