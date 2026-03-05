@@ -9,7 +9,6 @@
     transform = <&default_transform>;
 };
 
-
 / {
 
     kscan0{
