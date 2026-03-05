@@ -36,7 +36,7 @@ endif
 
 
 
-if SHIELD_NUTYMINI_DONGLE
+if SHIELD_NUTYCORNENANOT_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
