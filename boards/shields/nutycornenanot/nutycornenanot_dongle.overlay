@@ -12,6 +12,9 @@
 
 / {
 
+    kscan0{
+        status = "disabled";
+    }
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
