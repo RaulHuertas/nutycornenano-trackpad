@@ -5,7 +5,7 @@
  */
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 20
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 400    // default: 20
 
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
