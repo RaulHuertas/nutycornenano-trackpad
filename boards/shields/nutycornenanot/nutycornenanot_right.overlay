@@ -50,7 +50,7 @@
         status = "okay";
         reg = <0x2a>;
         dr-gpios = <&gpio1 3 (GPIO_ACTIVE_HIGH)>;
-        sensitivity = "8x";
+        sensitivity = "3x";
         sleep;
         x-invert;
         no-secondary-tap;
