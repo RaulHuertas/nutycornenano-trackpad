@@ -51,7 +51,7 @@
     };
 
     macros {
-        session_rename: session_rename {
+        session_list: session_rename {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(X) &kp L>;
