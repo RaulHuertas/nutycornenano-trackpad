@@ -50,6 +50,36 @@
         };
     };
 
+    macros {
+        session_rename: session_rename {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(X) &kp L>;
+            label = "SESSION_RENAME";
+        };
+
+        session_rename: session_rename {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(X) &kp R>;
+            label = "SESSION_RENAME";
+        };
+
+        session_new: session_new {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(X) &kp N>;
+            label = "SESSION_NEW";
+        };
+
+        session_delete: session_delete {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(X) &kp D>;
+            label = "SESSION_DELETE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
